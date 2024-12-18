@@ -4,23 +4,23 @@ import { Bot, ArrowRight, Sparkles } from 'lucide-react';
 export default function Hero() {
   return (
     <section className="min-h-screen relative overflow-hidden bg-[#0A0A0B]">
-      {/* Luxury background composition */}
+      
       <div className="absolute inset-0">
-        {/* Primary gradient layer */}
+       
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-40" />
         
-        {/* Brand accent layer */}
+        
         <div className="absolute inset-0">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[120%] h-[60%] bg-[radial-gradient(ellipse_at_center,#FF7E39_0%,transparent_70%)] opacity-[0.15] mix-blend-overlay" />
           <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120%] h-[40%] bg-[radial-gradient(ellipse_at_center,#FF7E39_0%,transparent_70%)] opacity-[0.08] mix-blend-overlay" />
         </div>
 
-        {/* Refined mesh pattern */}
+       
         <div className="absolute inset-0 opacity-[0.07]">
           <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSA2MCAwIEwgMCAwIDAgNjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGN0UzOSIgc3Ryb2tlLXdpZHRoPSIwLjUiIG9wYWNpdHk9IjAuMyIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIgLz48L3N2Zz4=')] animate-subtle-drift" />
         </div>
 
-        {/* Elegant light effects */}
+        
         <div className="absolute inset-0">
           <div className="absolute top-[-50%] left-[-50%] w-[200%] h-[200%] animate-super-slow-spin">
             <div className="absolute top-1/2 left-1/2 w-full h-[1px] bg-gradient-to-r from-transparent via-[#FF7E39] to-transparent opacity-[0.15] rotate-[35deg] transform -translate-x-1/2 -translate-y-1/2 blur-[2px]" />
@@ -28,18 +28,18 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Premium orb effects */}
+        
         <div className="absolute inset-0">
           <div className="absolute top-[5%] right-[45%] w-[900px] h-[900px] rounded-full bg-gradient-to-br from-[#FF7E39] to-transparent opacity-[0.07] blur-[120px] animate-luxury-float" />
           <div className="absolute bottom-[5%] left-[45%] w-[900px] h-[900px] rounded-full bg-gradient-to-tl from-[#FF7E39] to-transparent opacity-[0.07] blur-[120px] animate-luxury-float-reverse" />
         </div>
 
-        {/* Ultra-fine grain texture */}
+        
         <div className="absolute inset-0 opacity-[0.25] mix-blend-overlay">
           <div className="absolute inset-[-200%] w-[400%] h-[400%] bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxmaWx0ZXIgaWQ9Im4iPjxmZVR1cmJ1bGVuY2UgdHlwZT0iZnJhY3RhbE5vaXNlIiBiYXNlRnJlcXVlbmN5PSIxLjUiIHN0aXRjaFRpbGVzPSJzdGl0Y2giLz48L2ZpbHRlcj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiLz48L3N2Zz4=')] animate-subtle-grain" />
         </div>
 
-        {/* Subtle vignette */}
+       
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(0,0,0,0.2)_60%,rgba(0,0,0,0.4)_100%)]" />
       </div>
 
@@ -51,7 +51,7 @@ export default function Hero() {
           className="max-w-5xl mx-auto"
         >
           <div className="flex flex-col lg:flex-row items-center gap-12">
-            {/* Left Content */}
+            
             <div className="flex-1 text-center lg:text-left">
               <motion.h1
                 className="text-5xl md:text-6xl lg:text-7xl font-bold font-syne mb-6 leading-tight"
@@ -90,7 +90,7 @@ export default function Hero() {
               </motion.div>
             </div>
 
-            {/* Right Content - 3D Bot Visualization */}
+            
             <motion.div
               className="flex-1 relative"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -106,7 +106,7 @@ export default function Hero() {
             </motion.div>
           </div>
 
-          {/* Stats */}
+          
           <motion.div
             className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-32"
             initial={{ opacity: 0, y: 20 }}
