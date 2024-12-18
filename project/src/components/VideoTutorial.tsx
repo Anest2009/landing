@@ -22,7 +22,7 @@ const steps = [
 export default function VideoTutorial() {
   return (
     <section className="py-24 bg-[#090909] relative overflow-hidden">
-      {/* Background Effects */}
+      
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_-20%,#FF7E39,transparent_70%)] opacity-[0.1]" />
       </div>
@@ -39,7 +39,7 @@ export default function VideoTutorial() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Video Player */}
+         
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -47,7 +47,7 @@ export default function VideoTutorial() {
             className="relative aspect-video rounded-xl overflow-hidden border border-white/10"
           >
             <div className="absolute inset-0 bg-[#0F1014]">
-              {/* Replace src with your actual video thumbnail */}
+              
               <img 
                 src="/video-thumbnail.jpg" 
                 alt="Tutorial Video"
@@ -61,7 +61,7 @@ export default function VideoTutorial() {
             </div>
           </motion.div>
 
-          {/* Steps */}
+          
           <div className="space-y-8">
             {steps.map((step, index) => (
               <motion.div
