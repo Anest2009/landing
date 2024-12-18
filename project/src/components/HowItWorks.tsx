@@ -47,7 +47,7 @@ const item = {
 export default function HowItWorks() {
   return (
     <section className="py-24 bg-black relative overflow-hidden">
-      {/* Light Pattern Background */}
+      
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-transparent" />
         <div className="absolute inset-0 opacity-[0.03]">
@@ -73,7 +73,7 @@ export default function HowItWorks() {
         </motion.div>
 
         <div className="relative">
-          {/* Connection Line */}
+          
           <div className="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-[#FF7E39]/50 via-[#FF7E39] to-[#FF7E39]/50 transform -translate-y-1/2 z-0 hidden lg:block opacity-50" />
           
           <motion.div
