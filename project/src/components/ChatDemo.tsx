@@ -46,19 +46,19 @@ export default function ChatDemo() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
-    // Reset animation
+   
     const resetAnimation = () => {
       setMessages([]);
       setCurrentIndex(0);
     };
 
-    // Show next message
+    
     const timer = setInterval(() => {
       if (currentIndex < conversation.length) {
         setMessages(prev => [...prev, conversation[currentIndex]]);
         setCurrentIndex(prev => prev + 1);
       } else {
-        // Wait before resetting
+        
         setTimeout(resetAnimation, 2000);
       }
     }, 1500);
@@ -91,7 +91,7 @@ export default function ChatDemo() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              {/* Server Header */}
+              
               <div className="bg-[#313338] px-4 py-3 border-b border-[#1E1F22] flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   <Hash className="w-5 h-5 text-gray-400" />
@@ -104,7 +104,7 @@ export default function ChatDemo() {
                 </div>
               </div>
 
-              {/* Chat Area */}
+              
               <div className="h-[500px] flex flex-col bg-[#313338]">
                 <div className="flex-1 p-4 overflow-y-auto">
                   {messages.map((msg, index) => (
@@ -133,7 +133,7 @@ export default function ChatDemo() {
                   ))}
                 </div>
 
-                {/* Input Area (Disabled) */}
+                
                 <div className="p-4 bg-[#313338] border-t border-[#1E1F22]">
                   <div className="bg-[#383A40] rounded-lg p-4">
                     <input 
