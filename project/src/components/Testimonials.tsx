@@ -5,7 +5,7 @@ import { Quote } from 'lucide-react';
 export default function Testimonials() {
   return (
     <section className="py-24 bg-black relative overflow-hidden">
-      {/* Light Pattern Background */}
+      
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-transparent" />
         <div className="absolute inset-0 opacity-[0.03]">
