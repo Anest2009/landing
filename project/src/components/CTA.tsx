@@ -4,25 +4,25 @@ import { ArrowRight, Sparkles } from "lucide-react";
 export default function CTA() {
   return (
     <section className="relative py-24 overflow-hidden">
-      {/* Enhanced background with multiple layers */}
+      
       <div className="absolute inset-0 bg-[#0F1014]">
-        {/* Radial gradient base */}
+       
         <div className="absolute inset-0 bg-gradient-to-r from-[#FA4A4E]/10 to-[#FF7E39]/10" />
         
-        {/* Animated mesh gradient */}
+        
         <div className="absolute inset-0 opacity-30">
           <div className="absolute -inset-[100%] bg-[conic-gradient(from_0deg,#FA4A4E,#FF7E39,#FA4A4E)] animate-[spin_8s_linear_infinite] blur-[100px]" />
         </div>
 
-        {/* Noise texture overlay */}
+      
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMzAwIj4NCjxmaWx0ZXIgaWQ9ImEiIHg9IjAiIHk9IjAiPg0KPGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9Ii43NSIgc3RpdGNoVGlsZXM9InN0aXRjaCIvPg0KPC9maWx0ZXI+DQo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI2EpIiBvcGFjaXR5PSIwLjA1Ii8+DQo8L3N2Zz4=')] opacity-50" />
         
-        {/* Dark gradient overlays */}
+        
         <div className="absolute inset-0 bg-gradient-to-b from-[#0F1014] via-[#0F1014]/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0F1014] via-transparent to-transparent" />
       </div>
 
-      {/* Content */}
+      
       <div className="container mx-auto px-4 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
