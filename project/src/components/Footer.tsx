@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">Sales Bot</h3>
+            <h3 className="text-white font-bold text-lg mb-4">Sales Bo</h3>
             <p className="text-gray-400">
               AI-powered sales assistant that helps you close more deals
             </p>
