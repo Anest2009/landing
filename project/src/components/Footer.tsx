@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Sales Bot</h3>
             <p className="text-gray-400">
-              AI-powered sales assistant that helps you close more deal
+              AI-powered sales assistant that helps you close more deals
             </p>
           </div>
           
