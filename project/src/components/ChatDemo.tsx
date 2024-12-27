@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 
 const conversation = [
   {
-    user: 'BusinessOwner',
+    user: 'BusinessOwne',
     message: "Hi! I need a Discord bot for my business",
     time: "21:19",
     isBot: false
