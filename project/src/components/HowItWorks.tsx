@@ -5,7 +5,7 @@ const steps = [
   {
     icon: UserPlus,
     title: 'User Joins',
-    description: 'New member joins your Discord serve'
+    description: 'New member joins your Discord servers'
   },
   {
     icon: Target,
